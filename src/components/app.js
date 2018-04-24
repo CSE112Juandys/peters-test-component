@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Form, Label, Input } from 'reactstrap';
 import { GithubPicker } from 'react-color';
-import PetersComponent from './peters_component';
+import PetersComponent from './PetersComponent';
 
 class App extends Component {
   constructor(props) {

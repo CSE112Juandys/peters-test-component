@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const PetersComponent = (props) => {
     console.log(props);
@@ -7,6 +8,16 @@ const PetersComponent = (props) => {
     return (
         <p style={{color : props.color}}> {petersString} </p>
     ); 
+}
+
+PetersComponent.propTypes = {
+    times: PropTypes.number,
+    color: PropTypes.string
+}
+
+PetersComponent.defaultProps = {
+    times: 1,
+    color: '#000'
 }
 
 export default PetersComponent;
