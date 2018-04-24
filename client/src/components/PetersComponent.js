@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const PetersComponent = (props) => {
+    console.log("this version automatically linted, tested, built, and deployed");
     console.log(props);
     const petersString = "Look Peter, the component works!".repeat(props.times);
 
