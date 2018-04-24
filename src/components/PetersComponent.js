@@ -10,7 +10,7 @@ const PetersComponent = (props) => {
     ); 
 }
 
-/**/ 
+/*
 PetersComponent.propTypes = {
     times: PropTypes.number,
     color: PropTypes.string
@@ -20,5 +20,6 @@ PetersComponent.defaultProps = {
     times: 1,
     color: '#000'
 }
+*/
 
 export default PetersComponent;
