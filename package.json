@@ -22,7 +22,7 @@
   },
   "pre-commit": ["lint-staged"],
   "lint-staged": {
-      "*.js": ["./node_modules/.bin/eslint --fix", "git add", "jest --bail"]
+      "*.js": ["./node_modules/.bin/eslint --fix", "git add", "jest --bail --findRelatedTests"]
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
